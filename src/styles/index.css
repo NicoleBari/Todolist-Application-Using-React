@@ -10,3 +10,144 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,110,209,0.700717787114846) 35%, rgba(0,212,255,1) 100%); */
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    background-image: radial-gradient( circle 273px at 9.7% 50.7%,  rgba(86,204,242,1) 0%, rgba(47,128,237,1) 90% );
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% ); */
+    background-color: #282A36;
+    background-image: url(" https://img.freepik.com/foto-gratis/tablon-madera-colorido_53876-31800.jpg?t=st=1658372672~exp=1658373272~hmac=fe530b606dccfc3d4ea67c4061e857a6809f49ed68a38b6701c20b9a1f37ea59&w=740");
+    
+   
+    /* https://static9.depositphotos.com/1144687/1153/i/450/depositphotos_11534746-stock-photo-gray-wood-wall.jpg
+    https://img.freepik.com/foto-gratis/pared-madera-oscura_1194-7058.jpg?t=st=1658372872~exp=1658373472~hmac=015baf26b3abffb9d1ac27946e5e41fd86e1a30435d610374608d86414ef7d95&w=740 */
+    
+    
+    /* background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center; */
+  }
+.fondo{
+   
+    text-align: center;
+    padding-top:150px ;
+    padding-bottom: 250px;
+    margin: auto;
+}
+.task{
+    text-align: center;
+    width:600px ;
+    height: auto;
+    margin: auto;
+    border-radius: 11px;
+    /* border-bottom-style: outset; */
+    /* border-style: outset; */
+    border-bottom-style: ridge;
+    border-width: 15px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,110,209,0.700717787114846) 35%, rgba(0,212,255,1) 100%);
+   
+}
+h1{
+    font-family: 'Water Brush', cursive;
+    font-size: 100px;
+    color: antiquewhite;
+    
+
+}
+.material-symbols-outlined{
+    font-size:70px;
+    margin-left: 20px;
+}
+.margen{
+  padding-top: 25px;
+}
+.addTask{
+    border: none;
+    padding: 10px 40px  ;
+    margin: 10px;
+    color: white;
+    background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #9daef5;
+    font-family: 'Dancing Script', cursive;
+    
+    
+}
+
+.addTask:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .addTask:hover {
+    background: #2079b0;
+    background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+    text-decoration: none;
+  }.cuadro{
+    border-radius: 5px;
+    border: 1px solid rgb(207, 50, 181);
+    background-color: rgb(255, 221, 253);
+    border: 0;
+    outline-color: #9daef5;
+    color: #2079b0;
+    font-family: 'Edu TAS Beginner', cursive;
+    width: 250px;
+    /* outline:#eb94d0 */
+  }
+  .borrarTarea{
+    padding: 5px;
+    color: rgb(165, 60, 60);
+  }
+  .añadirTarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px auto;
+    color: white;
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+   
+    
+    
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+  }
+  .material-symbols-outlined{
+    font-size:40px;
+    color: white;
+  }
+  .tarea{
+    padding-bottom: 15px;
+  }
+ 
+  .complete {
+    text-decoration: line-through;
+  }
+  .iconos{
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  .tareasFaltantes{
+    color: white;
+    font-size: 20px;
+  }
